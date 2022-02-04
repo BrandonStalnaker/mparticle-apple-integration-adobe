@@ -55,5 +55,7 @@ let package = Package(
             path: "mParticle-Adobe-Media",
             exclude: ["Dummy.swift"],
             publicHeadersPath: "."),
-    ]
+    ],
+    ,
+    cxxLanguageStandard: .cxx11
 )
